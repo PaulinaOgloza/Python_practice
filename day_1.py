@@ -258,6 +258,33 @@ Output: String
 # print (f"{letter} is a consonant." if letter in consonant else "is not a consonant.")
 
 
+""" 11
+Napisz program, który zmieni temperaturę podaną w stopniach Celsjusza na Fahrenheita
+
+F = C * 9/5 + 32
+
+Input: Liczba
+
+Output: Liczba / String
+"""
+
+
+
+
+
+
+
+
+
+
+
+""" 12
+Napisz program, który przyjmie 3 liczby i obliczy z nich średnią arytmetyczną
+
+Input: Liczba, Liczba, Liczba
+
+Output: Liczba / String
+"""
 
 
 
