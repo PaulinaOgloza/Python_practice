@@ -99,3 +99,58 @@
     Jeśli nie, wypisz: "Frazy 'ek' nie znaleziono".
 """
 
+
+# full_name = input("State your full name: ")
+# print(
+#     f"Found 'ek' in phrase." if  "ek" in full_name.lower() else f"'ek' not found in phrase.",
+# )
+
+
+""" 3
+    Pobierz imię i nazwisko użytkownika. Następnie:
+
+    Sprawdź, które z nich jest dłuższe, wypisz które i podaj jego długość.
+
+    Jeśli długość imienia i nazwiska jest taka sama, wypisz komunikat:
+        "Imię i nazwisko mają taką samą długość".
+"""
+
+# full_name = (input("State your full name: ")).lower()
+#
+# name_split = full_name.split(" ")
+#
+# most_characters = 0
+# longest_word = []
+#
+# for word in name_split:
+#     word_length = len(word)
+#     if word_length > most_characters:
+#         most_characters = word_length
+#         longest_word = [word]
+#     elif word_length == most_characters:
+#         longest_word.append(word)
+#
+# if len(longest_word) == 1 :
+#     print(f"{longest_word[0]} is the longest word it has {most_characters} characters.")
+# else:
+#     word_str = ", " .join(word.title() for word in longest_word)
+#     print(f"All longest words are the same length ({most_characters} characters): {word_str}")
+
+"""sol2"""
+
+# full_name = (input("State your full name: ")).lower()
+#
+# name_split = full_name.split(" ")
+#
+# most_characters = max(len(word) for word in name_split)
+# longest_word = [x for x in name_split if len(x) == most_characters]
+#
+#
+# if len(longest_word) == 1 :
+#     print(f"{longest_word[0]} is the longest word it has {most_characters} characters.")
+# else:
+#     word_str = ", " .join(word.title() for word in longest_word)
+#     print(f"All longest words are the same length ({most_characters} characters): {word_str}")
+
+
+
