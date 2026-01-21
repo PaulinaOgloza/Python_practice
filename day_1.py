@@ -151,9 +151,9 @@ Output: String
 
 Zadanie z plusem - napisz program, który przyjmie 3 liczby.
 """
-
-num1: int(input("Input your first number: "))
-num2: int(input("Input your second number: "))
+#
+# num1: int(input("Input your first number: "))
+# num2: int(input("Input your second number: "))
 
 # if num1 > num2:
 #     print(f"{num1} > {num2}")
@@ -267,16 +267,15 @@ Input: Liczba
 
 Output: Liczba / String
 """
-
-
-
-
-
-
-
-
-
-
+# try:
+#     celsius_number= float(input("State temperature in Celsius: "))
+#
+#     fahrenheit_number= celsius_number * (9/5) + 32
+#
+#     print(f"{fahrenheit_number} F = {celsius_number} C.")
+#
+# except ValueError:
+#     print("State temperature in Celsius.")
 
 """ 12
 Napisz program, który przyjmie 3 liczby i obliczy z nich średnią arytmetyczną
@@ -285,6 +284,20 @@ Input: Liczba, Liczba, Liczba
 
 Output: Liczba / String
 """
+
+# try:
+#
+#     numbers = input("Type 3 numbers separated by comma: ")
+#     numbers = numbers.split(",")
+#
+#     numbers= [float(n) for n in numbers]
+#     average = sum(numbers) / len(numbers)
+#
+#     print(f"Average for {numbers} is: {average}")
+# except ValueError:
+#     print("Invalid input: please state 3 numbers separated by comma.")
+
+
 
 
 
