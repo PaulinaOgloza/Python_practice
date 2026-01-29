@@ -152,5 +152,26 @@
 #     word_str = ", " .join(word.title() for word in longest_word)
 #     print(f"All longest words are the same length ({most_characters} characters): {word_str}")
 
+""" 4
+    Napisz program, który będzie prosił użytkownika o wpisanie dowolnego słowa.
+
+    Program powinien wypisywać to słowo wielkimi literami.
+
+    Następnie zapyta użytkownika, czy chce kontynuować (wpisując "tak" lub "nie").
+
+    Jeśli użytkownik wpisze "tak", program poprosi o kolejne słowo.
+
+    Jeśli wpisze "nie", program zakończy działanie i wypisze "Do zobaczenia!".
+
+    Wykorzystaj:
+    * pętlę `while`
+    * `input()`
+    * wbudowaną metodę w `str()`, która zmieni litery na wielkie
+"""
+
+user_word = input("Enter a word: ")
+
+
+
 
 
